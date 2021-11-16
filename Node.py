@@ -1,7 +1,7 @@
 import numpy as np
 from random import randint
 from collections import defaultdict
-
+#defaultdict会在你查找一个没有包含在内的键时，提供一个零参数函数建立一个新的键，并为它的值增加1
 
 class TreeNode:
     """MCTS Node"""
